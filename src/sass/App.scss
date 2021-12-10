@@ -1,0 +1,21 @@
+@import "./variables";
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat"),
+    url(../fonts/Montserrat/Montserrat-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat"), url(../fonts/Montserrat/Montserrat-Bold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat"), url(../fonts/Montserrat/Montserrat-Black.ttf) format("truetype");
+}
+
+.AppContainer {
+  background-color: $bgcolor;
+  margin-top: 10%;
+}
